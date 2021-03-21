@@ -1,7 +1,8 @@
 name: My first custom workflow
 
-on: [push, pull_requests]
-  branches: [ master ]
+on:
+  push:
+    branches: [ master ]
   
 jobs:
 
