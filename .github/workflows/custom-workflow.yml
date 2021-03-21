@@ -13,8 +13,14 @@ jobs:
     steps:
 
       - name: Greet me
-        run: echo 'Hello Abrar, Happy learning!'
+        run: echo 'Hello Abrar, Happy learning!'; date
         
       - name: Find out Mac  Os version
-        run: uname -a
+        run: uname -a; date
+        
+      - name: Check disk utilization
+        run: df -h; date
+      
+      
+      
 
