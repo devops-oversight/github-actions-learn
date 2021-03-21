@@ -14,4 +14,7 @@ jobs:
 
       - name: Greet me
         run: echo 'Hello Abrar, Happy learning!'
+        
+      - name: Find out Mac  Os version
+        run: uname -a
 
