@@ -1,0 +1,16 @@
+name: 'My first custom workflow'
+
+on: [push, pull_requests]
+  branches: [ master ]
+  
+jobs:
+
+  'First-build job':
+  
+    runs-on: macos-latest
+
+    steps:
+
+      - name: Greet me
+        run: echo 'Hello Abrar, Happy learning!'
+
