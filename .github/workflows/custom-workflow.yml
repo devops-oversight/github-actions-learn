@@ -16,10 +16,10 @@ jobs:
         run: echo 'Hello Abrar, Happy learning!'; date
         
       - name: Find out Mac  Os version
-        run: uname -a; date
+        run: uname -a; date; whoami
         
       - name: Check disk utilization
-        run: df -h; date
+        run: df -h; date; exit 1
       
       
       
