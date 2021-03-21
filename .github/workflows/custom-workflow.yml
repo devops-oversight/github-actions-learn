@@ -19,7 +19,7 @@ jobs:
         run: uname -a; date
         
       - name: Check disk utilization
-        run: df -h; exit 1
+        run: df -h; date
       
       
       
